@@ -1,6 +1,6 @@
 # ChaosBricks
-A game about blocks, chaos and explosions.
-You can find the game on the releases tab.
+A game about blocks, chaos and explosions.  
+You can find the game in the releases section.
 
 Join our [Discord](https://discord.gg/97beRG6EJb) server
 
