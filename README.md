@@ -33,15 +33,15 @@ You can choose to play alone, together with, or against other players locally.
 When currently not playing, you can drag and drop the fields around using the blue anchors. You can also lock fields together by overlaying their anchors and right clicking them. Right click again to unlock.
 
 ![session room][imgSessionRoom]  
-| Button | Function |
-| :---------------- | :------------------------------- |
-| 1                 | Leave the current session and return to the main menu. Any running games will be stopped. |
-| 2                 | Opens the tutorial page. |
-| 3                 | Opens the game mode editor. |
-| 4                 | Opens the team manager. |
-| 5                 | Opens the settings page. |
-| 6                 | Adds a new playing field to the session. |
-| 7                 | Enters multi-screen mode. Screens can be "closed" individually using the x-Button in the top right corner. This feature is experimental. |
+| Button                         | Function |
+| :----------------------------: | :------------------------------- |
+| ![exit][imgSessionExit]        | Leave the current session and return to the main menu. Any running games will be stopped. |
+| ![exit][imgSessionTutorial]    | Opens the tutorial page. |
+| ![exit][imgSessionGamemode]    | Opens the game mode editor. |
+| ![exit][imgSessionTeamMgr]     | Opens the team manager. |
+| ![exit][imgSessionSettings]    | Opens the settings page. |
+| ![exit][imgSessionAddPlayer]   | Adds a new playing field to the session. |
+| ![exit][imgSessionMultiScreen] | Enters multi-screen mode. Screens can be "closed" individually using the x-Button in the top right corner. This feature is experimental. |
 
 ## Team Manager
 | ![team manager][imgTeamManager]  | ![teams in a session][imgTeamManagerFields] |
@@ -89,3 +89,10 @@ When currently not playing, you can drag and drop the fields around using the bl
 [imgTutorialGeneral]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Main.png
 [imgTutorialItems]:            https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Items.png
 [imgTutorialScripting]:        https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Scripting.png
+[imgSessionExit]:              https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/exit.png
+[imgSessionGamemode]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/gamemode.png
+[imgSessionMultiScreen]:       https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/multiscreen.png
+[imgSessionAddPlayer]:         https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/new%20player.png
+[imgSessionSettings]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/settings.png
+[imgSessionTeamMgr]:           https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/team.png
+[imgSessionTutorial]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/tutorial.png
