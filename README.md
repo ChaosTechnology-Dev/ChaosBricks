@@ -6,6 +6,11 @@ Join our [Discord](https://discord.gg/97beRG6EJb) server!
 
 Support us on [Patreon](https://www.patreon.com/chaostechnology)?
 
+| ![Gameplay][imgGameplay1] | ![Gameplay][imgGameplay3] | ![Gameplay][imgGameplay2] |
+| :---: | :---: | :---: |
+| | | |
+
+
 ## The Concept
 ChaosBricks is a puzzle game based on stacking blocks and solving lines in which you can play and create in whichever way you like.  
 The game is customizable in just about any way imaginable, from the blocks you play with to the scoring conditions, and if that's not enough you can even add custom scripts to further enhance your mode.  
@@ -96,3 +101,6 @@ When currently not playing, you can drag and drop the fields around using the bl
 [imgSessionSettings]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/settings.png
 [imgSessionTeamMgr]:           https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/team.png
 [imgSessionTutorial]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Session%20Buttons/tutorial.png
+[imgGameplay1]:                https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Gameplay%20-%20Chicken.png
+[imgGameplay2]:                https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Gameplay%20-%20Burn.png
+[imgGameplay3]:                https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Gameplay%20-%20Darkness.png
