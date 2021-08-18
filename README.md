@@ -22,9 +22,9 @@ Items are added via scripts. For instance, the default mode adds items as a rewa
 | Button | Function |
 | :---------------- | :------------------------------- |
 | Continue          | Start off where you last left the game. The number and profiles of players and the team configuration will be preserved as well as the selected game mode. |
-| New Session       | Opens a game mode dialog and starts a new session with one random player and the newly selected game mode. |
-| Tutorial          | Opens the the tutorial page. |
-| Settings          | Opens the settings page. |
+| New Session       | Opens a [game mode editor](#game-mode-editor) and starts a new session with one random player and the newly selected game mode. |
+| Tutorial          | Opens the the [tutorial page](#tutorial). |
+| Settings          | Opens the [settings page](#settings). |
 | Exit              | DANGER ZONE! This will end the game! |
 
 ## The Session Room
@@ -35,11 +35,11 @@ When currently not playing, you can drag and drop the fields around using the bl
 ![session room][imgSessionRoom]  
 | Button                         | Function |
 | :----------------------------: | :------------------------------- |
-| ![exit][imgSessionExit]        | Leave the current session and return to the main menu. Any running games will be stopped. |
-| ![exit][imgSessionTutorial]    | Opens the tutorial page. |
-| ![exit][imgSessionGamemode]    | Opens the game mode editor. |
-| ![exit][imgSessionTeamMgr]     | Opens the team manager. |
-| ![exit][imgSessionSettings]    | Opens the settings page. |
+| ![exit][imgSessionExit]        | Leave the current session and return to the [main menu](#the-main-menu). Any running games will be stopped. |
+| ![exit][imgSessionTutorial]    | Opens the [tutorial page](#tutorial). |
+| ![exit][imgSessionGamemode]    | Opens the [game mode editor](#game-mode-editor). |
+| ![exit][imgSessionTeamMgr]     | Opens the [team manager](#team-manager). |
+| ![exit][imgSessionSettings]    | Opens the [settings page](#settings). |
 | ![exit][imgSessionAddPlayer]   | Adds a new playing field to the session. |
 | ![exit][imgSessionMultiScreen] | Enters multi-screen mode. Screens can be "closed" individually using the x-Button in the top right corner. This feature is experimental. |
 
