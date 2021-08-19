@@ -90,7 +90,7 @@ When currently not playing, you can drag and drop the fields around using the bl
 [imgGameModeItemTutorial]:     https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/GameMode%20-%20ItemTutorial.png
 [imgGameModeScoring]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/GameMode%20-%20Scoring.png
 [imgGameModeScripting]:        https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/GameMode%20-%20Scripting.png
-[imgSettings]:                 https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/GameMode%20-%20Scripting.png
+[imgSettings]:                 https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Settings.png
 [imgTutorialGeneral]:          https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Main.png
 [imgTutorialItems]:            https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Items.png
 [imgTutorialScripting]:        https://github.com/ChaosTechnology/ChaosBricks/blob/main/Images/Tutorial%20-%20Scripting.png
