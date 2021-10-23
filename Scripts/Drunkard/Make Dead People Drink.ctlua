@@ -1,0 +1,65 @@
+events.Death().Add(	
+	function(args)
+		local drunkards = {};
+		local count = 0;
+		
+		local enemies = Player.GetPlayers(InvokeFlags.All_Enemies);
+		for i,p in ipairs(enemies) do
+			if p ~= args.player then
+				for i,b in ipairs(p:GetBlocks(true)) do
+					if b.item ~= nil then
+						if b.item.name then
+							Console.WriteLine(b.item.name);
+						end
+						if b.item.name == "CommandBlock" then
+							local drunkard = drunkards[p];
+							if drunkard then
+								drunkards[p] = drunkard + 1;
+							else
+								drunkards[p] = 1;
+							end
+							count = count + 1;
+						end
+					end
+				end
+			end
+		end	
+		
+		local message = {}
+		local function append(msg)
+			table.insert(message, msg);
+		end		
+		
+		append(args.player.coloredName);
+		append(" lost the Game.\n\n");
+		append(Message.GetColorCode(1,0,0,1));
+		append("Drink one for the squad!");
+		append(Message.ResetColorCode());
+		
+		if count > 0 then
+			append("\n\nAdditionally the following people make you drink:\n\n");
+			for p,v in pairs(drunkards) do
+				append(p.coloredName);
+				append(": ");
+				append(tostring(v));
+				if v == 1 then
+					append(" drink\n");					
+				else
+					append(" drinks\n");				
+				end
+			end
+		end
+
+		for i,p in ipairs(Player.GetPlayers()) do
+			if p ~= args.player then
+				p:AddScore(1);
+			end
+		end
+
+		for i,p in ipairs(Player.GetPlayers()) do
+			p:Kill();
+		end
+		
+		Message.MBox(table.concat(message));
+	end
+);
