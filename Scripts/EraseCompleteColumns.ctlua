@@ -1,0 +1,76 @@
+-- Grant whichever reward (or punishment) you like
+function columnReward(player)
+	player:AddItem("CommandBlock");
+end
+
+
+columnBlocks = {};
+
+function GetColumnBlocks(player)
+	local col = columnBlocks[player];
+	if not col then
+		col = {};
+	end
+	return col;
+end
+
+function collectColumns(player)
+	local col = GetColumnBlocks(player);
+	for x=0, player.fieldWidth - 1, 1 do
+		for y=0, player.fieldHeight - 1, 1 do
+			local b = player:GetBlock(x, y);
+			if b == nil or not b.alive or not b.CountsForLine then
+				goto columnIncomplete;
+			end
+		end
+		
+		-- Column complete
+		columnReward(player);
+		
+		for y=0, player.fieldHeight - 1, 1 do
+			local b = player:GetBlock(x,y);
+			table.insert(col, b);
+		end
+		
+		::columnIncomplete::		
+	end
+	
+	columnBlocks[player] = col;
+end
+
+function processColumns(player)
+	local col = GetColumnBlocks(player);
+	for i, b in ipairs(col) do
+		if b and b.alive then
+			local item = b.item;
+			if item then
+				item:Invoke(InvokeFlags.OnLineEarly);
+				if item.alive and item == b.item then
+					item:Invoke(InvokeFlags.OnLine);
+				end
+			end
+			if b.alive then
+				b:Erase(EraseAction.Jump);
+			end
+		end
+	end
+	
+	columnBlocks[player] = {};
+end
+
+events.BeforeLine().Add(
+	function(args)
+		collectColumns(args.player);
+	end
+);
+events.LinesErased().Add(
+	function(args)
+		processColumns(args.player);
+	end
+);
+events.PlayerInterval(0.1).Add(
+	function(args)
+		collectColumns(args.player);
+		processColumns(args.player);
+	end
+);
