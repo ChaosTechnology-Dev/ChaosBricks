@@ -18,6 +18,15 @@ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
 OR BUSINESS INTERRUPTION; OR PHYSICAL OR PSYCHOLOGICAL DAMAGES
 OR INJURIES)
 
+This game uses third party libraries that are either bundled with
+the game or require installation in order to make the game function
+properly. These third party libraries are not part of our product
+and therefore unaffected by this agreement.
+See the licenses folder in the game directory for their respective
+licenses.
+Any part of the software other than the listed third party libraries
+are subject to this agreement.
+
 This game provides options and means to include user
 generated content. The developers are not responsible
 for any such content.
@@ -27,7 +36,7 @@ or the licenses tab in the credits page in the game.
 
 You agree that you will not modify, reverse engineer, decompile
 or create works from, or disassemble any parts of this product
-(including, but limited to, this agreement).
+(including, but not limited to, this agreement).
 
 Should any parts of this agreement become invalid due to
 applicable law, the unaffected parts of this agreement
