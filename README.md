@@ -2,7 +2,8 @@
 A game about blocks, chaos and explosions.  
 You can find the download link for all versions in the [releases section](https://github.com/ChaosTechnology/ChaosBricks/releases).
 
-Join our [Discord](https://discord.gg/97beRG6EJb) server!
+Join our [Discord](https://discord.gg/97beRG6EJb) server!  
+[![Discord](https://discordapp.com/api/guilds/856269792323305503/widget.png)](https://discord.gg/97beRG6EJb)
 
 Support us on [Patreon](https://www.patreon.com/chaostechnology)?
 
